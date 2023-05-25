@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+  }
+  * a {
+    text-decoration: none;
+  }
+  * li {
+    list-style: none;
+  }
+  .container {
+    min-height: 140vh;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    position: relative;
+    
+  }
+  .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .bg::after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(45%);
+    background-image: url("https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5BcWZ14Bzereqqn0wHwig5FTIBd51uVIVjrGsM0QEGZsRKg0lJy.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .navBar {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    height: 15vh;
+  }
+  .navBar ul {
+    display: flex;
+    align-items: center;
+  }
+  .navBar ul li {
+    padding: 0 25px;
+  }
+  .navBar ul li a {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 450;
+    letter-spacing: 1.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .navBar .logo a {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+  }
+  .phuket {
+    color: #fff;
+    padding: 25px;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+  .card h2 {
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    
+  }
+  .card .box1,
+  .box2,
+  .box3,
+  .box4,.box5,.box6,.box7,.box8,.box9,.box6,.box7, .box8,.box9,.box10,.box11,.box12{
+    width: 90%;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .box1 {
+    background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTUsI7CcfnoVEMD0E_0bDbbMzti5VWl38Azd2GKlhZsr629VgsI");
+  }
+  .box2 {
+    background-image: url("https://i0.wp.com/www.korseries.com/wp-content/uploads/2023/03/Doctor-cha-jtbc-poster-210323.jpg?resize=720%2C1024&ssl=1");
+  }
+  .box3 {
+    background-image: url("https://images.ctfassets.net/4cd45et68cgf/7H7WjekFNEd8sY5TCttTID/3217bb609c9b617c5ffed4c7e1134d89/ST4_Main_LocationPayoff_Vertical_27x40_RGB_TH.jpg?w=2560");
+  }
+  .box4 {
+    background-image: url("https://image.springnews.co.th/uploads/images/md/2023/04/JYze5Hkqjc9PZfigvon5.webp?x-image-process=style/lg");
+  }
+  .box5 {
+    background-image: url("https://f.ptcdn.info/206/076/000/r6gofc1negaDxJdtSHIYj-s.jpg");
+  }
+  .box6 {
+    background-image: url("https://cdn.majorcineplex.com/uploads/content/images/20210505151656_Fast22.jpg");
+  }
+  .box7 {
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSn9sbkj8C5A645jUEITjhPogCKCncImmKHAYy-1ecm2kxuy3o6");
+  }
+  .box8 {
+    background-image: url("https://s359.kapook.com/pagebuilder/b3e34287-cc9d-4f67-a1fe-9e888e8c4403.jpg");
+  }
+  .box9 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/th/6/66/Wednesday_Netflix_series_poster.png");
+  }
+  .box10 {
+    background-image: url("https://www.techoffside.com/wp-content/uploads/2023/04/Netflix-Black-Knight-Official-Teaser-001-810x1200.jpg");
+  }
+  .box11 {
+    background-image: url("https://lh3.googleusercontent.com/rTZAkXS-KTWQFUVey3su6hFPxe5LDONFluPUUVu6sqwUgicgLyoyqp0vfrCnDyOggUbnQkOkZeAWsOZJUeK3y1sAOgI3L_M=s0");
+  }
+  .box12 {
+    background-image: url("https://thaipublica.org/wp-content/uploads/2023/02/The_Glory-p2.jpg");
+  }
+
+
+  .phuket h2 {
+    font-size: 2.1rem;
+    letter-spacing: 3px;
+  }
+  .text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .txt h1 {
+    font-size: 7rem;
+  }
+  .phuket p {
+    opacity: 0.4;
+  }
+  .tnx h2 i {
+    color: #fd7e13;
+  }
+  .card div {
+    transition: 0.5s;
+  }
+  .card div:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+  
